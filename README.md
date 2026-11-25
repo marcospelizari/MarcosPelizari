@@ -13,12 +13,12 @@ I'm studying Systems Analysis and Development at FIAP (graduating in 12/2026). B
 
 ## 🚀 Featured projects
 
-| Project | What it is | What I learned building it |
+| Project | What it is | Highlights |
 |---|---|---|
-| **[linview](https://github.com/marcospelizari/imageviewerlinux)**<br>Java 21 · JavaFX · Gradle | A fast image viewer for Linux, inspired by FastStone. Version 1.0.1, packaged with its own Java runtime and in daily use. | Keeping navigation instant: background preloading, a cache capped at 300 MB, and decoding huge images only as large as the screen needs. Lossless rotation that rewrites only the JPEG EXIF orientation. 271 automated tests run in CI. |
-| **[warframeBuild](https://github.com/marcospelizari/warframebuild)**<br>Python · TypeScript · Docker | A build optimizer for the game Warframe. For every gun it searches mod combinations, simulates fights against high-level enemies and keeps the build that kills fastest. | Turning a complex damage model (elements, critical tiers, armor, status over time) into code that is checked against numbers read in the game. Searching a very large set of combinations in reasonable time, and stating every assumption next to the result. |
-| **[Developer knowledge base](https://marcospelizari.github.io)**<br>Angular · TypeScript | My study notes as a website: Java, Spring Boot, testing, security, Docker, Kubernetes and CI/CD, in two levels, with interview questions and progress tracking. | Separating content from code: every topic is a JSON file, so the site grows without touching the app. Search that ignores accents, light/dark theme, responsive layout. |
-| **Task scheduler microservices**<br>Java · Spring Boot · PostgreSQL · MongoDB | Four services: [users](https://github.com/marcospelizari/usuario) with JWT authentication, [notifications](https://github.com/marcospelizari/notificacao) by email, [task scheduling](https://github.com/marcospelizari/agendador-tarefas) on MongoDB, and a [BFF](https://github.com/marcospelizari/bff-agendador-tarefas) that joins them. | Service-to-service calls with Feign, stateless JWT authentication across services, a scheduled job that sends reminders, and choosing a relational or a document database per service. |
+| **[linview](https://github.com/marcospelizari/imageviewerlinux)**<br>Java · JavaFX | Fast image viewer for Linux (v1.0.1) | Preloading and memory-capped cache, 271 tests in CI |
+| **[warframeBuild](https://github.com/marcospelizari/warframebuild)**<br>Python · TypeScript | Finds the fastest-killing mod build for each Warframe gun | Damage model checked against in-game numbers |
+| **[Knowledge base](https://marcospelizari.github.io)**<br>Angular | My study notes as a website | Content in JSON, search, progress tracking |
+| **Task scheduler**<br>Spring Boot | [Users](https://github.com/marcospelizari/usuario), [notifications](https://github.com/marcospelizari/notificacao), [tasks](https://github.com/marcospelizari/agendador-tarefas) and a [BFF](https://github.com/marcospelizari/bff-agendador-tarefas) | JWT across services, Feign, PostgreSQL and MongoDB |
 
 ## 🛠️ Tech stack
 
